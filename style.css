@@ -346,6 +346,14 @@ a {
     }
   }
 
+  .up-arrow {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 50px;
+    transition: transform 0.2s ease-in-out;
+}
+
 .intro-container {
     position: relative;
     padding-right: 30px;
@@ -384,7 +392,6 @@ a {
 .intro-container .moi,
 .intro-container .blurb {
     font-size: 20px;
-    /* font-size: 24px; */
 }
 
 .intro-container .moi {
@@ -394,7 +401,6 @@ a {
 
 .intro-container .blurb {
     width: 350px;
-    /* width: 410px; */
 }
 
 @media screen and (max-width: 990px) {
@@ -443,7 +449,6 @@ a {
     .intro-container .intro-1,
     .intro-container .intro-2 {
         max-width: 450px;
-        /* max-width: 480px; */
         font-size: 52px;
         line-height: 1.1;
     }
@@ -469,15 +474,34 @@ a {
 
 .intro-container a .up-arrow {
     padding: 0;
-    font-size: inherit;
+    margin-left: 5px;
+    width: 48px;
 }
 
-.up-arrow {
-    display: inline-block;
-    padding-left: 30px;
-    font-size: 4rem;
-    transition: transform 0.2s ease-in-out;
+@media screen and (max-width: 990px) {
+    .intro-container a .up-arrow {
+        padding-left: 5px;
+        margin: 0;
+        width: 48px;
+    }
 }
+
+@media screen and (max-width: 770px) {
+    .intro-container a .up-arrow {
+        padding-left: 5px;
+        margin: 0;
+        width: 42px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .intro-container a .up-arrow {
+        padding-left: 5px;
+        margin: 0;
+        width: 32px;
+    }
+}
+
 
 a:hover .up-arrow {
     transform: translate(10px, -10px);
@@ -554,8 +578,8 @@ a:hover .up-arrow {
         display: inline-block;
         height: 100%;
         margin-top: 3px;
-        padding-left: 5px;
-        font-size: inherit;
+        margin-left: 7px;
+        width: 15px;
     }
 }
 
@@ -659,13 +683,25 @@ footer {
 }
 
 .footer-links > a .up-arrow {
-    font-size: inherit;
+    width: 115px;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
 }
 
 .footer-links > a:hover .up-arrow {
     opacity: 1;
+}
+
+@media screen and (max-width: 990px) {
+    .footer-links > a .up-arrow {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .footer-links > a .up-arrow {
+        width: 75px;
+    }
 }
 
 @media screen and (max-width: 600px) {
