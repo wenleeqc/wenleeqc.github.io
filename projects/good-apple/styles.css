@@ -1,0 +1,104 @@
+:root {
+    --primary-red: #F23005;
+    --primaray-green: #00A859;
+    --off-black: #0D0D0D;
+    --cream: #F9F8F0;
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: var(--cream);
+    color: var(--off-black)
+}
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto-serif-font {
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;
+}
+
+main {
+    width: 100%;
+}
+
+#landing {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/assets/landing-bg.png");
+    background-size: 49em;
+    /* background-position: top right; */
+    background-position: 25rem -17rem;
+    background-repeat: no-repeat;
+    height: 100dvh;
+}
+
+.landing-logo-container {
+    display: flex;
+    gap: .3rem;
+    align-items: end;
+    width:fit-content;
+    margin-top: 1.9rem;
+    margin-left: 4rem;
+}
+
+.landing-logo-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.landing-logo {
+    width: 2rem;
+}
+
+.landing-logo-ux-text {
+    font-size: .95rem;
+    color: var(--primaray-green);
+    line-height: .85rem;
+}
+
+.landing-logo-case-study-text {
+    font-size: .95rem;
+    color: var(--off-black);
+}
+
+.landing-logomark {
+    width: 22rem;
+    margin-top: 11rem;
+    margin-left: 4rem;
+}
+
+.landing-text {
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: var(--primary-red);
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+.landing-text b {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.landing-line {
+    width: 60.5rem;
+    margin-top: 15rem;
+}
+
