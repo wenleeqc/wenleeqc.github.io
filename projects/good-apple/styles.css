@@ -7,6 +7,7 @@
 
 html, body {
     margin: 0;
+    padding: 0;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 .roboto-font {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -35,10 +36,12 @@ body {
 
 main {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #landing {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     background-image: url("/assets/landing-bg.png");
@@ -46,7 +49,7 @@ main {
     /* background-position: top right; */
     background-position: 25rem -17rem;
     background-repeat: no-repeat;
-    height: 100dvh;
+    height: fit-content;
 }
 
 .landing-logo-container {
@@ -102,3 +105,204 @@ main {
     margin-top: 15rem;
 }
 
+#problem {
+    margin-top: -5rem;
+    color: var(--cream);
+}
+
+#problem h1 {
+    font-weight: 800;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+#problem p {
+    font-size: 1rem;
+}
+
+.problem-border-top,
+.problem-border-bottom,
+.problem-body {
+    width: 60rem;
+    background-color: var();
+}
+
+.problem-border-top {
+}
+
+.problem-border-bottom {
+    margin-top: -1rem;
+}
+
+.problem-body {
+    background-color: var(--primaray-green);
+    background-image: url("assets/problem-arrow.svg");
+    background-size: 14rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: -.5rem;
+    padding-top: 2.5rem;
+}
+
+.problem-the-problem-container,
+.problem-our-solution-container {
+    display: flex;
+    align-items: center;
+    /* justify-items: center; */
+    /* justify-content: center; */
+    /* gap: 5rem; */
+}
+
+.problem-the-problem-container {
+    margin-top: 1.4rem;
+    margin-left: 10rem;
+}
+
+.problem-our-solution-container {
+    margin-top: 2.4rem;
+    margin-left: 7.5rem;
+}
+
+.problem-the-problem-image{
+    width: 18rem;
+}
+
+.problem-our-solution-image {
+    width: 20rem;
+}
+
+.problem-the-problem-image {
+    margin-top: -2rem;
+    margin-left: 8.6rem;
+}
+
+.problem-our-solution-image {
+    margin-top: -3rem;
+    margin-right: 5rem;
+}
+
+.problem-line {
+    width: 59rem;
+    margin-top: -6.8rem;
+}
+
+#competitive-analysis {
+    margin-top: 3rem;
+}
+
+.competitive-analysis-heading-image {
+    display: block;
+    margin: 0 auto;
+    width: 50rem;
+}
+
+.competitive-analysis-crit1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.competitive-analysis-crit2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.competitive-analysis-crit1-image,
+.competitive-analysis-crit2-image {
+    width: 18rem;
+}
+
+.competitive-analysis-arrow1 {
+    width: 12rem;
+    margin-top: 6rem;
+}
+
+.competitive-analysis-arrow2 {
+    width: 13rem;
+    margin-top: 10rem;
+    margin-left: -6rem;
+}
+
+.competitive-analysis-crit1-list li,
+.competitive-analysis-crit2-list li {
+    margin-bottom: 1rem;
+    padding-left: .5rem;
+}
+
+.competitive-analysis-crit1-list li::marker,
+.competitive-analysis-crit2-list li::marker {
+    font-size: 1.3rem;
+    color: var(--primary-red);
+}
+
+.competitive-analysis-crit1-list {
+    margin-top: 2.5rem;
+    margin-left: -5rem;
+}
+
+.competitive-analysis-crit2-list {
+    margin-top: 19rem;
+}
+
+.competitive-analysis-user-journey {
+    margin-top: 5rem;
+}
+
+.competitive-analysis-user-journey-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.competitive-analysis-user-journey-image2 {
+    margin-top: 1rem;
+    margin-left: -.9rem;
+}
+
+.competitive-analysis-user-journey-image3 {
+    margin-top: 2rem;
+    margin-left: -.9rem;
+}
+
+.competitive-analysis-user-journey-image4 {
+    margin-top: 3rem;
+    margin-left: -.9rem;
+}
+
+.competitive-analysis-user-journey-image5 {
+    margin-top: 4rem;
+    margin-left: -.9rem;
+}
+
+.competitive-analysis-user-journey-image6 {
+    margin-top: 5rem;
+    margin-left: -.9rem;
+}
+
+.competitive-analysis-user-journey h1 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
+    color: var(--primary-red);
+}
+
+.competitive-analysis-user-journey img {
+    width: 9rem;
+}
+
+.competitive-analysis-user-journey h3 {
+    font-size: .6rem;
+    text-align: center;
+    color: var(--primaray-green);
+    margin: -.6rem 0 0 0;
+}
+
+.competitive-analysis-line {
+    width: 60rem;
+    margin-top: -3rem;
+}
