@@ -101,6 +101,7 @@ main {
 }
 
 .landing-line {
+    display: block;
     width: 60.5rem;
     margin-top: 15rem;
 }
@@ -178,6 +179,7 @@ main {
 }
 
 .problem-line {
+    display: block;
     width: 59rem;
     margin-top: -6.8rem;
 }
@@ -299,6 +301,7 @@ main {
 }
 
 .competitive-analysis-line {
+    display: block;
     width: 60rem;
     margin-top: -3rem;
 }
@@ -393,3 +396,57 @@ main {
     margin-top: -7.5rem
 }
 
+.solution-key-features-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: -4.5rem;
+}
+
+.solution-key-features-image {
+    width: 22rem;
+}
+
+.solution-key-features-container h1 {
+    font-weight: 800;
+    font-style: italic;
+    font-size: 1.8rem;
+    color: var(--primaray-green);
+}
+
+.solution-key-features-container li {
+    margin-bottom: 1rem;
+    padding-left: .5rem;
+}
+
+.solution-key-features-container li::marker {
+    font-size: 1.3rem;
+    color: var(--primary-red);
+}
+
+.solution-line-divide {
+    display: block;
+    width: 55rem;
+}
+
+.solution-user-flow-container h1 {
+    font-weight: 800;
+    font-style: italic;
+    font-size: 1.8rem;
+    color: var(--primaray-green);
+    margin-top: 4rem;
+    margin-left: 5rem;
+}
+
+.solution-user-flow-image {
+    display: block;
+    width: 54rem;
+    margin-top: -5rem;
+}
+
+.solution-line {
+    display: block;
+    width: 60rem;
+    margin-top: -3rem;
+}
