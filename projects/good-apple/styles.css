@@ -124,10 +124,6 @@ main {
 .problem-border-bottom,
 .problem-body {
     width: 60rem;
-    background-color: var();
-}
-
-.problem-border-top {
 }
 
 .problem-border-bottom {
@@ -306,3 +302,94 @@ main {
     width: 60rem;
     margin-top: -3rem;
 }
+
+#user-persona {
+    margin-top: -13rem;
+    color: var(--cream);
+}
+
+.user-persona-border-top,
+.user-persona-border-bottom,
+.user-persona-body {
+    width: 60rem;
+}
+
+.user-persona-heading-image {
+    display: block;
+    width: 18rem;
+    transform: rotate(-6.5deg);
+    margin-top: -8rem;
+    margin-left: 5rem;
+}
+
+.user-persona-body {
+    background-color: var(--primary-red);
+    background-image: url("assets/user-persona-arrow.svg");
+    background-size: 17rem;
+    background-position: center 51%;
+    background-repeat: no-repeat;
+    margin-top: 2.5rem;
+}
+
+.user-persona-user1-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.user-persona-user1 {
+    width: 21rem;
+    margin-top: 5rem;
+}
+
+.user-persona-user1-info div {
+    width: 20rem;
+}
+
+.user-persona-user1-info h2 {
+    font-weight: 900;
+}
+
+.user-persona-user1-info h3 {
+    font-size: 1rem;
+    border-bottom: .2rem solid var(--cream);
+    padding-bottom: .1rem;
+    margin-bottom: -.4rem;
+}
+
+.user-persona-user1-info p:first-of-type {
+    font-size: 1rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+.user-persona-user1-info p {
+    font-size: .7rem;
+    margin-bottom: 1.5rem;
+}
+
+.user-persona-empathy-map {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+}
+
+.user-persona-empathy-map h2 {
+    font-weight: 800;
+    font-style: italic;
+    font-size: 1.9rem;
+    margin-left: 6.2rem;
+}
+
+.user-persona-empathy-map-image {
+    width: 50rem;
+    align-self: center;
+}
+
+.user-persona-line {
+    display: block;
+    width: 60rem;
+    margin-top: -7.5rem
+}
+
