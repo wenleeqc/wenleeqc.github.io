@@ -432,7 +432,7 @@ main {
 
 #wireframes {
     width: 100%;
-    margin-top: -15dvw;
+    margin-top: -14.5dvw;
 }
 
 .wireframes-heading-image {
@@ -448,7 +448,7 @@ main {
 }
 
 .wireframes-line {
-    margin-top: -4dvw;
+    margin-top: -1dvw;
 }
 
 /* @media (min-width: 1500px) {
