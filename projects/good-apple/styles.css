@@ -45,7 +45,7 @@ main {
 #landing {
     display: flex;
     flex-direction: column;
-    background-image: url("/assets/landing-bg.png");
+    background-image: url("assets/landing-bg.png");
     background-size: 82dvw;
     background-position: 40.5dvw -27.3dvw;
     background-repeat: no-repeat;
@@ -442,7 +442,7 @@ main {
 }
 
 .wireframes-image {
-    width: 104dvw;
+    width: 100dvw;
     margin-top: -4dvw;
     margin-left: -2dvw;
 }
