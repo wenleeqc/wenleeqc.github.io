@@ -46,8 +46,8 @@ main {
     display: flex;
     flex-direction: column;
     background-image: url("assets/landing-bg.png");
-    background-size: 82dvw;
-    background-position: 40.5dvw -27.3dvw;
+    background-size: 82vw;
+    background-position: 40.5vw -27.3dvw;
     background-repeat: no-repeat;
     width: 100%;
     height: 82.5dvw;
@@ -55,11 +55,11 @@ main {
 
 .landing-logo-container {
     display: flex;
-    gap: .5dvw;
+    gap: .5vw;
     align-items: end;
     width:fit-content;
-    margin-top: 4.4dvw;
-    margin-left: 8.5dvw;
+    margin-top: 4.4vw;
+    margin-left: 8.5vw;
 }
 
 .landing-logo-text {
@@ -68,32 +68,32 @@ main {
 }
 
 .landing-logo {
-    width: 3.3dvw;
+    width: 3.3vw;
 }
 
 .landing-logo-ux-text {
-    font-size: 1.5dvw;
+    font-size: 1.5vw;
     color: var(--primary-green);
-    line-height: 1.3dvw;
+    line-height: 1.3vw;
 }
 
 .landing-logo-case-study-text {
-    font-size: 1.5dvw;
+    font-size: 1.5vw;
     color: var(--off-black);
 }
 
 .landing-logomark {
-    width: 37dvw;
-    margin-top: 19dvw;
-    margin-left: 8.5dvw;
+    width: 37vw;
+    margin-top: 19vw;
+    margin-left: 8.5vw;
 }
 
 .landing-text {
     font-weight: 200;
-    font-size: 2.1dvw;
+    font-size: 2.1vw;
     color: var(--primary-red);
-    margin-top: 2rem;
-    margin-left: 8.5dvw;
+    margin-top: 3vw;
+    margin-left: 8.5vw;
 }
 
 .landing-text b {
@@ -102,29 +102,29 @@ main {
 }
 
 .landing-line {
-    margin-top: -7.5dvw;
+    margin-top: -7.5vw;
 }
 
 #problem {
     width: 100%;
-    margin-top: -8.5dvw;
+    margin-top: -8.7vw;
     color: var(--cream);
 }
 
 .problem-arrow {
-    width: 23dvw;
+    width: 23vw;
     margin-top: 38vw;
-    margin-left: 36dvw;
+    margin-left: 36vw;
 }
 
 #problem h1 {
     font-weight: 800;
     font-style: italic;
-    font-size: 2.5dvw;
+    font-size: 2.5vw;
 }
 
 #problem p {
-    font-size: 1.7dvw;
+    font-size: 1.7vw;
 }
 
 .problem-the-problem-container,
@@ -134,40 +134,40 @@ main {
 }
 
 .problem-the-problem-container {
-    margin-top: 16dvw;
-    margin-left: 17.3dvw;
+    margin-top: 16vw;
+    margin-left: 17.3vw;
 }
 
 .problem-our-solution-container {
-    margin-top: 4.4dvw;
-    margin-left: 11.3dvw;
+    margin-top: 4.4vw;
+    margin-left: 11.3vw;
 }
 
 .problem-the-problem-image {
-    width: 30dvw;
-    margin-top: -2dvw;
-    margin-left: 13.7dvw;
+    width: 30vw;
+    margin-top: -2vw;
+    margin-left: 13.dvw;
 }
 
 .problem-our-solution-image {
-    width: 32dvw;
-    margin-top: -3dvw;
-    margin-right: 11.5dvw;
+    width: 32vw;
+    margin-top: -3vw;
+    margin-right: 11.5vw;
 }
 
 .problem-line {
-    margin-top: 4.8dvw;
+    margin-top: 4.8vw;
 }
 
 #competitive-analysis {
-    margin-top: 3rem;
-    color: var(--off-black)
+    margin-top: 3.5vw;
+    color: var(--off-black);
 }
 
 .competitive-analysis-heading-image {
     display: block;
     margin: 0 auto;
-    width: 82dvw;
+    width: 82vw;
 }
 
 .competitive-analysis-crit1,
@@ -175,189 +175,189 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5dvw;
+    margin-top: 5vw;
 }
 
 .competitive-analysis-crit1-image,
 .competitive-analysis-crit2-image {
-    width: 30dvw;
+    width: 30vw;
 }
 
 .competitive-analysis-arrow1 {
-    width: 19dvw;
-    margin-top: 11.5dvw;
+    width: 19vw;
+    margin-top: 11.5vw;
 }
 
 .competitive-analysis-arrow2 {
-    width: 22.5dvw;
-    margin-top: 17dvw;
-    margin-left: -11dvw;
+    width: 22.5vw;
+    margin-top: 17vw;
+    margin-left: -11vw;
 }
 
 .competitive-analysis-crit1-list li,
 .competitive-analysis-crit2-list li {
-    font-size: 1.6dvw;
-    margin-bottom: 2dvw;
-    padding-left: 1.1dvw;
+    font-size: 1.6vw;
+    margin-bottom: 2vw;
+    padding-left: 1.3vw;
 }
 
 .competitive-analysis-crit1-list li::marker,
 .competitive-analysis-crit2-list li::marker {
-    font-size: 1.3rem;
+    font-size: 2.2vw;
     color: var(--primary-red);
 }
 
 .competitive-analysis-crit1-list {
-    margin-top: 6.5dvw;
-    margin-left: -8dvw;
+    margin-top: 6.5vw;
+    margin-left: -8vw;
 }
 
 .competitive-analysis-crit2-list {
-    margin-top: 32dvw;
+    margin-top: 32vw;
 }
 
 .competitive-analysis-user-journey {
-    margin-top: 8.5dvw;
+    margin-top: 8.5vw;
 }
 
 .competitive-analysis-user-journey-image-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 2dvw;
+    margin-top: 2vw;
 }
 
 .competitive-analysis-user-journey-image2 {
-    margin-top: 2.2dvw;
-    margin-left: -1.6dvw;
+    margin-top: 2.2vw;
+    margin-left: -1.dvw;
 }
 
 .competitive-analysis-user-journey-image3 {
-    margin-top: 4.4dvw;
-    margin-left: -1.6dvw;
+    margin-top: 4.4vw;
+    margin-left: -1.6vw;
 }
 
 .competitive-analysis-user-journey-image4 {
-    margin-top: 6.6dvw;
-    margin-left: -1.6dvw;
+    margin-top: 6.6vw;
+    margin-left: -1.6vw;
 }
 
 .competitive-analysis-user-journey-image5 {
-    margin-top: 8.8dvw;
-    margin-left: -1.6dvw;
+    margin-top: 8.8vw;
+    margin-left: -1.6vw;
 }
 
 .competitive-analysis-user-journey-image6 {
-    margin-top: 11dvw;
-    margin-left: -1.6dvw;
+    margin-top: 11vw;
+    margin-left: -1.6vw;
 }
 
 .competitive-analysis-user-journey h1 {
     font-weight: 700;
-    font-size: 2.1dvw;
+    font-size: 2.1vw;
     font-style: italic;
     text-align: center;
     color: var(--primary-red);
 }
 
 .competitive-analysis-user-journey img {
-    width: 15dvw;
+    width: 15vw;
 }
 
 .competitive-analysis-user-journey h3 {
-    font-size: .9dvw;
+    font-size: .9vw;
     text-align: center;
     color: var(--primary-green);
-    margin: -.6dvw 0 0 0;
+    margin: -.6vw 0 0 0;
 }
 
 .competitive-analysis-line {
-    margin-top: -9dvw;
+    margin-top: -9vw;
 }
 
 #user-persona {
     width: 100%;
-    margin-top: -20dvw;
+    margin-top: -20vw;
     color: var(--cream);
 }
 
 .user-persona-heading-image {
     display: block;
-    width: 29dvw;
+    width: 29vw;
     transform: rotate(-6.5deg);
-    margin-top: 15dvw;
-    margin-left: 9.5dvw;
+    margin-top: 15vw;
+    margin-left: 9.5vw;
 }
 
 .user-persona-body {
-    margin-top: 4dvw;
+    margin-top: 4vw;
 }
 
 .user-persona-arrow {
-    width: 30dvw;
-    margin-top: 77dvw;
-    margin-left: 31dvw;
+    width: 30vw;
+    margin-top: 77vw;
+    margin-left: 31vw;
 }
 
 .user-persona-user1-info {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3.9dvw;
+    gap: 3.9vw;
 }
 
 .user-persona-user1-image {
-    width: 34dvw;
-    margin-top: 12dvw;
+    width: 34vw;
+    margin-top: 12vw;
 }
 
 .user-persona-user1-info div {
-    width: 34dvw;
+    width: 34vw;
 }
 
 .user-persona-user1-info h2 {
     font-weight: 900;
-    font-size: 2.4dvw;
+    font-size: 2.4vw;
 }
 
 .user-persona-user1-info h3 {
     font-size: 1.6dvw;
-    border-bottom: .35dvw solid var(--cream);
-    padding-bottom: .2dvw;
-    margin-bottom: -.7dvw;
+    border-bottom: .35vw solid var(--cream);
+    padding-bottom: .2vw;
+    margin-bottom: -.7vw;
 }
 
 .user-persona-user1-info p:first-of-type {
-    font-size: 1.6dvw;
-    margin-top: -1dvw;
-    margin-bottom: 3.5dvw;
+    font-size: 1.6vw;
+    margin-top: -1vw;
+    margin-bottom: 3.5vw;
 }
 
 .user-persona-user1-info p {
-    font-size: 1.3dvw;
-    margin-bottom: 2.9dvw;
+    font-size: 1.3vw;
+    margin-bottom: 2.9vw;
 }
 
 .user-persona-empathy-map {
     display: flex;
     flex-direction: column;
-    margin-top: 13dvw;
+    margin-top: 13vw;
 }
 
 .user-persona-empathy-map h2 {
     font-weight: 800;
     font-style: italic;
-    font-size: 3dvw;
-    margin-left: 11dvw;
+    font-size: 3vw;
+    margin-left: 11vw;
 }
 
 .user-persona-empathy-map-image {
-    width: 80dvw;
+    width: 80vw;
     align-self: center;
 }
 
 .user-persona-line {
-    margin-top: 2.5dvw;
+    margin-top: 2.5vw;
 }
 
 #solution {
@@ -365,46 +365,47 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 2vw;
 }
 
 .solution-key-features-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 9dvw;
-    margin-top: -6.5dvw;
+    gap: 9vw;
+    margin-top: -6.5vw;
 }
 
 .solution-key-features-image {
-    width: 37dvw;
+    width: 37vw;
 }
 
 .solution-key-features-container h1 {
     font-weight: 800;
     font-style: italic;
-    font-size: 2.8dvw;
+    font-size: 2.8vw;
     color: var(--primary-green);
 }
 
 .solution-key-features-container ul {
-    margin-left: -2dvw;
+    margin-left: -2vw;
 }
 
 .solution-key-features-container li {
-    font-size: 1.6dvw;
-    margin-bottom: 2.3dvw;
-    padding-left: 1.5dvw;
+    font-size: 1.6vw;
+    margin-bottom: 2.3vw;
+    padding-left: 1.5vw;
 }
 
 .solution-key-features-container li::marker {
-    font-size: 2.2dvw;
+    font-size: 2.2vw;
     color: var(--primary-red);
 }
 
 .solution-line-divide {
     display: block;
     margin: 0 auto;
-    width: 85dvw;
+    width: 85vw;
 }
 
 .solution-user-flow-container {
@@ -414,41 +415,41 @@ main {
 .solution-user-flow-container h1 {
     font-weight: 800;
     font-style: italic;
-    font-size: 2.8dvw;
+    font-size: 2.8vw;
     color: var(--primary-green);
-    margin-top: 7dvw;
-    margin-left: 5dvw;
+    margin-top: 7vw;
+    margin-left: 5vw;
 }
 
 .solution-user-flow-image {
     display: block;
-    width: 84dvw;
-    margin-top: -5dvw;
+    width: 84vw;
+    margin-top: -5vw;
 }
 
 .solution-line {
-    margin-top: -5dvw;
+    margin-top: -5vw;
 }
 
 #wireframes {
     width: 100%;
-    margin-top: -14.5dvw;
+    margin-top: -14.5vw;
 }
 
 .wireframes-heading-image {
-    width: 25dvw;
-    margin-top: 14dvw;
-    margin-left: 22dvw;
+    width: 25vw;
+    margin-top: 14vw;
+    margin-left: 22vw;
 }
 
 .wireframes-image {
-    width: 100dvw;
-    margin-top: -4dvw;
-    margin-left: -2dvw;
+    width: 100vw;
+    margin-top: -4vw;
+    /* margin-left: 0vw; */
 }
 
 .wireframes-line {
-    margin-top: -1dvw;
+    margin-top: -1vw;
 }
 
 /* @media (min-width: 1500px) {
@@ -459,109 +460,110 @@ main {
 
 #design-system {
     background-color: #fff;
-    width: 100dvw;
+    width: 100vw;
     z-index: -101;
 }
 
 .design-system-top-gradient {
     background: linear-gradient(180deg,rgba(249, 248, 240, 1) 30%, rgba(255, 255, 255, 1) 100%);
     position: absolute;
-    width: 100dvw;
+    width: 100vw;
     height: 100dvw;
-    margin-top: -25dvw;
+    margin-top: -25vw;
     z-index: -100;
 }
 
 #design-system h1 {
     font-weight: 700;
     font-style: italic;
-    font-size: 3.1dvw;
+    font-size: 3.1vw;
 }
 
 #design-system p {
-    font-size: 1.6dvw;
+    font-size: 1.6vw;
 }
 
 .design-system-heading-image {
-    width: 35dvw;
-    margin-top: -4.3dvw;
-    margin-left: 57.5dvw;
+    width: 35vw;
+    margin-top: -4.3vw;
+    margin-left: 57.5vw;
 }
 
 .design-system-color-palette-container {
     display: flex;
     flex-direction: row;
     align-items: start;
-    gap: 9dvw;
-    margin-left: 11dvw;
+    gap: 9vw;
+    margin-left: 11vw;
 }
 
 .design-system-color-palette {
-    /* margin-left: 8dvw; */
+    /* margin-left: 8vw; */
     margin-top: 20dvw;
 }
 
 .design-system-color-palette-example {
-    width: 27dvw;
-    /* margin-left: 3dvw; */
+    width: 27vw;
+    /* margin-left: 3vw; */
 }
 
 .design-system-color-palette-image {
-    width: 49dvw;
-    margin-left: -1dvw;
+    width: 49vw;
+    margin-left: -1vw;
 }
 
 .design-system-typography-container {
-    margin-top: 9dvw;
-    margin-left: 10dvw;
+    margin-top: 9vw;
+    margin-left: 10vw;
 }
 
 .design-system-roboto-font {
     /* display: block; */
-    width: 84dvw;
+    width: 84vw;
     /* margin: 0 auto; */
 }
 
 .design-system-logo-container {
-     margin-left: 10dvw;
-     /* border: 1px solid green; */
+    margin-top: 10vw;
+    margin-left: 10vw;
 }
 
 .design-system-logo-gradient {
     background: radial-gradient(at 90% 50%, rgba(249, 248, 240, 1) 10%, rgba(255, 255, 255, 1) 65%);
     position: absolute;
-    width: 100dvw;
-    height: 60dvw;
-    margin-top: -10dvw;
+    width: 100vw;
+    height: 60vw;
+    margin-top: -3vw;
     z-index: -101;
 }
 
 .design-system-logo {
-    width: 80dvw;
+    width: 80vw;
 }
 
 .design-system-ui-components-container {
-    margin-left: 10dvw;
+    margin-top: 10vw;
+    margin-left: 10vw;
 }
 
 .design-system-ui-components {
-    width: 85dvw;
-    margin-left: -1dvw;
+    width: 85vw;
+    margin-left: -1vw;
 }
 
 .design-system-bottom-border {
-    margin-top: -1dvw;
+    margin-top: -1vw;
 }
 
 .design-system-line {
-    margin-top: -17dvw;
+    margin-top: -17vw;
 }
 
 #user-story {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -2dvw;
+    margin-top: -2vw;
     width: 100%;
     background-color: var(--cream);
 }
@@ -569,77 +571,77 @@ main {
 #user-story h2 {
     font-weight: 700;
     font-style: italic;
-    font-size: 2.14dvw;
+    font-size: 2.14vw;
     color: var(--primary-green)
 }
 
 .user-story-heading-image {
-    margin-top: -6dvw;
-    margin-left: -50dvw;
-    width: 30dvw;
+    margin-top: -6vw;
+    margin-left: -50vw;
+    width: 30vw;
 }
 
 .user-story-onboarding-container img,
 .user-story-login-container img {
-    width: 23dvw;
+    width: 23vw;
 }
 
 .user-story-onboarding-container {
-    margin-top: 9dvw;
+    margin-top: 9vw;
 }
 
 .user-story-onboarding-container h2 {
-    margin-left: 2dvw;
-    margin-bottom: 2.9dvw;
+    margin-left: 2vw;
+    margin-bottom: 2.9vw;
 }
 
 .user-story-login-container {
-    margin-top: 4dvw;
+    margin-top: 4vw;
 }
 
 .user-story-login-container h2 {
-    margin-left: 2dvw;
-    margin-bottom: 2.9dvw;
+    margin-left: 2vw;
+    margin-bottom: 2.9vw;
 }
 
 .user-story-browsing-container {
-    margin-top: 9dvw;
+    margin-top: 9vw;
 }
 
 .user-story-browsing-container h2 {
-    margin-left: 2dvw;
+    margin-left: 2vw;
 }
 
 .user-story-browsing-heading-image {
     position: absolute;
-    margin-top: 15dvw;
+    margin-top: 15vw;
 }
 
 .user-story-browsing-image {
-    width: 69.7dvw;
+    width: 69.7vw;
 }
 
 .user-story-posting-container {
-    margin-top: 0dvw;
+    margin-top: 0vw;
 }
 
 .user-story-posting-container h2 {
-    margin-top: 5dvw;
-    margin-left: 5.5dvw;
+    margin-top: 5vw;
+    margin-left: 5.5vw;
 }
 
 .user-story-posting-image {
-    width: 61.75dvw;
-    margin-top: 4dvw;
-    margin-left: 15dvw;
+    width: 61.75vw;
+    margin-top: 4vw;
+    margin-left: 15vw;
 }
 
 .user-story-messaging-container {
-    margin-top: 3dvw;
+    margin-top: 3vw;
 }
 
 .user-story-messaging-container h2 {
-    margin-left: 2dvw;
+    margin-left: 2vw;
 }
 
 .user-story-messaging-image {
@@ -648,11 +650,11 @@ main {
 }
 
 .user-story-border-bottom {
-    margin-top: 3dvw;
+    margin-top: 3vw;
 }
 
 .figma-prototype-border-top {
-    margin-top: -10dvw;
+    margin-top: -10vw;
 }
 
 
@@ -662,32 +664,32 @@ main {
 
 .figma-prototype-heading-image {
     position: absolute;
-    width: 39dvw;
-    margin-top: -3dvw;
-    margin-left: 14dvw;
+    width: 39vw;
+    margin-top: -3vw;
+    margin-left: 14vw;
 }
 
 .figma-prototype-link-container {
     display: flex;
     align-items: center;
-    gap: 2dvw;
+    gap: 2vw;
     width: fit-content;
-    margin-top: 10dvw;
+    margin-top: 10vw;
     margin-left: auto;
     margin-right: auto;
 }
 
 .figma-prototype-link-container img {
-    width: 5dvw;
+    width: 5vw;
 }
 
 #figma-prototype a {
     font-weight: 400;
-    font-size: 2.5dvw;
+    font-size: 2.5vw;
     box-shadow: inset 0 0 0 0 var(--cream);
     color: var(--cream);
     text-decoration: none;
-	padding: 0 .5dvw;
+	padding: 0 .5vw;
 	margin: 0 -.55vw;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
@@ -702,12 +704,12 @@ main {
 
 #figma-prototype a:hover {
     color: var(--primary-red);
-    box-shadow: inset 26dvw 0 0 0 var(--cream);
+    box-shadow: inset 26vw 0 0 0 var(--cream);
 }
 
 .figma-prototype-filler {
     background-color: var(--primary-red);
-    height: 10dvw;
+    height: 10vw;
 }
 
 .blob {
